@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Domcke Team</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .full-screen {
+            background-image: url('assests/team_zurich.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .content {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .content h1 {
+            color: white;
+            font-size: 36px;
+        }
+
+        .content p {
+            color: white;
+            font-size: 18px;
+        }
+
+        .back-link, .social-link {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            padding: 10px 20px;
+            border: 2px solid white;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-link:hover, .social-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-link {
+            margin: 2px;
+            padding: 5px;
+            border-radius: 0%;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="full-screen">
+        <div class="content">
+            <h1>About Us</h1>
+            <p>The only question is, what can't we do together?</p>
+            <p>(nothing)</p>
+
+            <!-- Link back to homepage -->
+            <a href="homepage.html" class="back-link">Back Home</a>
+
+             <!-- Links to team publications and such -->
+             <div class="team_links">
+                <a href="https://scholar.google.com/citations?user=YOe7RMUAAAAJ&hl=en&oi=ao">publication</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
